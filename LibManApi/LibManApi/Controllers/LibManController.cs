@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 //using Microsoft.AspNetCore.Http.HttpResults;
 using LibManApi.DAL;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace LibManApi
 {
     [ApiController]
     [Route("/api/(Books)")]
 
-    public class LibManController
+    public class LibManController : ControllerBase
     {
         private readonly LibraryDbContext _libraryDbContext;
         private readonly LibManService _libManService;
@@ -18,7 +19,7 @@ namespace LibManApi
             _libManService = new LibManService(libraryDbContext);
         }
 
-        [HttpGet]
+        [HttpGet("/books")]
         public ActionResult<IEnumerable<Book>> GetBooks()
         {
             var books = _libManService.GetBooks();
@@ -28,6 +29,19 @@ namespace LibManApi
             }
 
             return new ActionResult<IEnumerable<Book>>(books);
+        }
+
+        [HttpGet("/api/books")]
+        public ActionResult GetBooks2()
+        {
+            List<Book> books = _libManService.GetBooks().ToList();
+            if (books.Count() == 0)
+            {
+                return new NotFoundObjectResult(new { Error = "No books found" });
+            }
+            books.Add(new PrintedBook { Id = 1, Title = "The Alchemist", FileFormat = "PDF", Author = "Paulo Coelho", PublicationYear = 1988, IsBorrowed = false });
+
+            return Ok(books);
         }
 
 
@@ -57,7 +71,7 @@ namespace LibManApi
 
         //     return book;
         // }
-        [HttpGet("{id}")]
+        [HttpGet("/Api/Books/{id}")]
         public ActionResult<string> GetBook(int id)
         {
             var book = _libraryDbContext.Books.SingleOrDefault(b => b.Id == id);
@@ -69,7 +83,7 @@ namespace LibManApi
             return book.GetDetails();
         }
 
-        [HttpPost("EBook")]
+        [HttpPost("/Api/Books/EBook")]
 
         public ActionResult<EBook> AddEBook([FromBody] EBook eBook)
         {
