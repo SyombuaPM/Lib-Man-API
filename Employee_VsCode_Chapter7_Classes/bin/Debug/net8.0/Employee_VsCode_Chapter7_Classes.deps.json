@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Employee_VsCode_Chapter7_Classes/1.0.0": {
+        "runtime": {
+          "Employee_VsCode_Chapter7_Classes.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employee_VsCode_Chapter7_Classes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

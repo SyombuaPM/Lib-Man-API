@@ -1,0 +1,14 @@
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/bin/Debug/net7.0/StudentMarksProject
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/bin/Debug/net7.0/StudentMarksProject.deps.json
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/bin/Debug/net7.0/StudentMarksProject.runtimeconfig.json
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/bin/Debug/net7.0/StudentMarksProject.dll
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/bin/Debug/net7.0/StudentMarksProject.pdb
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/StudentMarksProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/StudentMarksProject.AssemblyInfoInputs.cache
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/StudentMarksProject.AssemblyInfo.cs
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/StudentMarksProject.csproj.CoreCompileInputs.cache
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/StudentMarksProject.dll
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/refint/StudentMarksProject.dll
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/StudentMarksProject.pdb
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/StudentMarksProject.genruntimeconfig.cache
+/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/obj/Debug/net7.0/ref/StudentMarksProject.dll

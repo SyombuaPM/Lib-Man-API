@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "doQoYoyIOkfmYSEMtXTKvHlKb1yR/EAfA2pwYP7kY/S/4daYZgJBOm3Z+0yxwff54+qLYRpmAApMLbhKHsF9Sg==",
+  "success": true,
+  "projectFilePath": "/Users/priscilla/CSharp_LearningFolder/StudentMarksProject/StudentMarksProject/StudentMarksProject.csproj",
+  "expectedPackageFiles": [
+    "/Users/priscilla/.nuget/packages/microsoft.netcore.app.ref/7.0.15/microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "/Users/priscilla/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.15/microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "/Users/priscilla/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.15/microsoft.netcore.app.host.osx-x64.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
